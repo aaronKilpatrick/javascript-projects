@@ -1,8 +1,8 @@
 function displayTime() {
   let date = new Date();
   let h = date.getHours();
-  let m = date.getMinutes();
-  let s = date.getSeconds();
+  let m = String(date.getMinutes()).padStart(2, "0");
+  let s = String(date.getSeconds()).padStart(2, "0");
 
   let theTime = h + ":" + m + ":" + s;
 
