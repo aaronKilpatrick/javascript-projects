@@ -1,0 +1,15 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.clock_time {
+  font-family: 'Rubik', sans-serif;
+  font-size: 9rem;
+  font-weight: 500;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
