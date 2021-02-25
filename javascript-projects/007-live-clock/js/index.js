@@ -1,6 +1,6 @@
-const BODY_SELECTOR = document.querySelector("body");
-const AUTHOR_SELECTOR = document.querySelector(".author_text");
-const IMAGE_DATA = [
+const bodyTag = document.querySelector("body");
+const authorDisplay = document.querySelector(".author_text");
+const imagesData = [
   {
     imageClass: 'background0',
     author: 'Martin Damboldt'
@@ -38,23 +38,23 @@ function displayTime() {
 
 //Changes background using classes and calls author from object array
 function backgroundAndAuthorChanger() {
-  let currentClass = BODY_SELECTOR.classList;
+  let currentClass = bodyTag.classList;
   let objNum = Math.floor(Math.random() * 5);
 
   // Checks if 'body' has class attribute. If not, adds class, if does replaces
   if (currentClass.value === "") {
-    BODY_SELECTOR.classList.add(IMAGE_DATA[objNum].imageClass);
+    bodyTag.classList.add(imagesData[objNum].imageClass);
 
     setTimeout(function() {
-      AUTHOR_SELECTOR.textContent = IMAGE_DATA[objNum].author;
+      authorDisplay.textContent = imagesData[objNum].author;
     }, 1150);
 
   }
   else {
-    BODY_SELECTOR.classList.replace(currentClass, IMAGE_DATA[objNum].imageClass);
+    bodyTag.classList.replace(currentClass, imagesData[objNum].imageClass);
 
     setTimeout(function() {
-      AUTHOR_SELECTOR.innerText = IMAGE_DATA[objNum].author;
+      authorDisplay.innerText = imagesData[objNum].author;
     }, 1150);
 
   }

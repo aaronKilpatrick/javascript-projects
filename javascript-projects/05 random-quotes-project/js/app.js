@@ -1,11 +1,11 @@
 (function() {
   //DOM selectors
-  const QUOTE_SELECTOR  = document.querySelector("#quote");
-  const AUTHOR_SELECTOR = document.querySelector(".quote-author");
-  const BUTTON_SELECTOR = document.querySelector("#generate-btn");
+  const quoteDisplay  = document.querySelector("#quote");
+  const authorDisplay = document.querySelector(".quote-author");
+  const generateButton = document.querySelector("#generate-btn");
 
   //Array of 7 quote objects
-  const QUOTES = [
+  const quotes = [
     {
       quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
       author: "Nelson Mandela"
@@ -39,14 +39,14 @@
   //Generates random number at the length of the array to be used as
   //array index
   function randomNumber() {
-    return Math.floor(Math.random() * (QUOTES.length));
+    return Math.floor(Math.random() * (quotes.length));
   }
 
   //Event listener that handles #generate-btn and outputs quote and author from object array
-  BUTTON_SELECTOR.addEventListener("click", function() {
+  generateButton.addEventListener("click", function() {
     let num = randomNumber();
 
-    QUOTE_SELECTOR.innerText = QUOTES[num].quote;
-    AUTHOR_SELECTOR.innerText = QUOTES[num].author;
+    quoteDisplay.innerText = quotes[num].quote;
+    authorDisplay.innerText = quotes[num].author;
   });
 })()

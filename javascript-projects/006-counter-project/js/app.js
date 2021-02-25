@@ -1,21 +1,21 @@
 // Button selectors
-const COUNTER_SELECTOR = document.querySelector("#counter");
-const BUTTON_SELECTORS = document.querySelectorAll("button");
+const counterDisplay = document.querySelector("#counter");
+const buttons = document.querySelectorAll("button");
 
 var counter = 0;
 
 // loops through buttons, assigning event listners that control the counter
 
-BUTTON_SELECTORS.forEach(function(btns){
+buttons.forEach(function(btns){
   btns.addEventListener("click", function() {
 
     if (btns.classList.contains("prevBtn")) {
       counter--;
-      COUNTER_SELECTOR.innerText = counter;
+      counterDisplay.innerText = counter;
     }
     else if (btns.classList.contains("nextBtn")) {
       counter++;
-      COUNTER_SELECTOR.innerText = counter;
+      counterDisplay.innerText = counter;
     }
 
     checkNumPositive(counter);
@@ -26,9 +26,9 @@ BUTTON_SELECTORS.forEach(function(btns){
 
 function checkNumPositive(num) {
   if(num < 0)
-    COUNTER_SELECTOR.style.color = "red";
+    counterDisplay.style.color = "red";
   else if (num > 0)
-    COUNTER_SELECTOR.style.color = "green";
+    counterDisplay.style.color = "green";
   else
-    COUNTER_SELECTOR.style.color = "#333";
+    counterDisplay.style.color = "#333";
 }
