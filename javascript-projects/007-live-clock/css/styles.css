@@ -6,16 +6,50 @@ html {
 body {
   background-image: url("img/bckg1.jpg");
   background-size: cover;
+  transition: background-image 1s ease-in;
+}
+
+.background0 {
+  background-image: url("img/bckg1.jpg");
+}
+
+.background1 {
+  background-image: url("img/bckg2.jpg");
+}
+
+.background2{
+  background-image: url("img/bckg3.jpg");
+}
+
+.background3 {
+  background-image: url("img/bckg4.jpg");
+}
+
+.background4 {
+  background-image: url("img/bckg5.jpg");
+}
+
+h1, h2 {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  text-rendering: geometricPrecision;
+  font-weight: 500;
+  position: absolute;
+  margin: 0;
 }
 
 .clock_time {
-  color: #fff;
-  font-family: 'Rubik', sans-serif;
   font-size: 9rem;
-  font-weight: 500;
-  margin: 0;
-  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.author_text {
+  font-size: 1.8rem;
+  bottom: 5%;
+  letter-spacing: 1.5px;
+  right: 5%;
+  text-align: right;
 }
