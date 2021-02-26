@@ -94,3 +94,16 @@ of the screen. I am very happy with this project, even though it is simple.
 This project was fairly simple. I looked up *template literals* as I was sure there was another way to include a snippet in between a string without concatenation.
 My first thought was to loop and push the images into the array but for 5 images I thought to keep it simple.
 I am not sure if there is a way to directly pull file names directly from local storage other than JSON with AJAX but I will definitely look into it.
+
+## Project 009 - testimonials Slider
+**Javascript Used:**
+* Arrays
+* Control Structures
+* Constructor Function
+* DOM Manipulation
+* Event Listeners
+* IIFE
+* Objects
+* Template Literals
+
+This one took a little longer than I would of liked. *Contructor Functions* were included in the task. It has been a while since I used them properly (at university in Java) and I had to refresh my memory on how to use them. I believe I can say I am now confident using *constructor functions* and can see how they are used in real projects.
