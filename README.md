@@ -107,4 +107,4 @@ I am not sure if there is a way to directly pull file names directly from local 
 * Template Literals
 
 This one took a little longer than I would of liked. *Contructor Functions* were included in the task. It has been a while since I used them properly (at university in Java) and I had to refresh my memory on how to use them. I believe I can say I am now confident using *constructor functions* and can see how they are used in real projects.
-I was going to use *getElementById()* as I know that it is faster than *querySelector()* but I read an informative [article](https://gomakethings.com/javascript-selector-performance/#:~:text=getElementById()%20can%20run%20about,A%20millisecond.) by gomakethings that *querySelector()* is slower but it certainly isn't slow. 
+I was going to use *getElementById()* as I know that it is faster than *querySelector()* but I read an informative [article](https://gomakethings.com/javascript-selector-performance/#:~:text=getElementById()%20can%20run%20about,A%20millisecond.) by gomakethings that *querySelector()* is slower but it certainly isn't slow, and for flexibility and consistency it's a great option.
