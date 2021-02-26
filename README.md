@@ -81,3 +81,16 @@ I created the whole project from scratch. I started with just the clock function
 moved on to the background changer. I had to look up the *.remove()* method but it
 went smoothly. Lastly I added the photographer of the image to the bottom right
 of the screen. I am very happy with this project, even though it is simple.
+
+## Project 008 - Background Image Slider
+**Javascript Used:**
+* Arrays
+* Control Structures
+* DOM Manipulation
+* Event Listeners
+* IIFE
+* Template Literals
+
+This project was fairly simple. I looked up *template literals* as I was sure there was another way to include a snippet in between a string without concatenation.
+My first thought was to loop and push the images into the array but for 5 images I thought to keep it simple.
+I am not sure if there is a way to directly pull file names directly from local storage other than JSON with AJAX but I will definitely look into it.
