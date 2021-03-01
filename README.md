@@ -108,3 +108,16 @@ I am not sure if there is a way to directly pull file names directly from local 
 
 This one took a little longer than I would of liked. *Contructor Functions* were included in the task. It has been a while since I used them properly (at university in Java) and I had to refresh my memory on how to use them. I believe I can say I am now confident using *constructor functions* and can see how they are used in real projects.
 I was going to use *getElementById()* as I know that it is faster than *querySelector()* but I read an informative [article](https://gomakethings.com/javascript-selector-performance/#:~:text=getElementById()%20can%20run%20about,A%20millisecond.) by gomakethings that *querySelector()* is slower but it certainly isn't slow, and for flexibility and consistency it's a great option.
+
+## Project 010 - Item Filter
+**Javascript Used:**
+* Arrays
+* Control Structures
+* Datasets
+* DOM Manipulation
+* Event Listeners
+* IIFE
+* Slice()
+
+I was pretty happy with this one. I did some reading on variable scope and I now think I understand scope and why you use IIFEs to not contaminate the global scope.
+I went with a *slice()* coupled with a *for loop* to match the datasets and input for the search bar. I was pretty happy with my approach. I saw that the project solution was to use *includes* with a *foreach loop* which is a more simplistic approach but I think they take about the same time to code. Maybe a little quicker performance wise not having to slice every dataset at every iteration, but for such a small project it is fine. More than one way to skin a cat.

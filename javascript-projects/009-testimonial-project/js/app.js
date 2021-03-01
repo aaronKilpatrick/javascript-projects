@@ -37,7 +37,7 @@
     let arrayLength = customerArr.length - 1;
 
     button.addEventListener("click", function() {
-      // Checks if counter has gone below the bounds of array
+      // Checks if counter has gone below the bounds of the array
       if (button.classList.contains("prevBtn")) {
         counter--;
         if (counter < 0) {
