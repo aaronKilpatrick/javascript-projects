@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.mobile-container {
+  background-color: #e4eddb;
+  height: 500px;
+  /* left: 50%; */
+  margin: 50px auto;
+  /* top: 50%; */
+  /* transform: translate(-50%, -50%); */
+  width: 350px;
+}
+
+.nav-bar {
+  align-items: center;
+  color: #e4eddb;
+  background-color: #307672;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  padding-right: 8px;
+  transition: opacity 5s ;
+}
+
+.menu-icon {
+  font-size: 44px;
+}
+
+.nav-menu {
+  background-color: #144d53;
+  display: none;
+  flex-direction: column;
+  padding: 1rem;
+  opacity: 0;
+  text-align: center;
+}
+
+.nav-menu a {
+  color: #e4eddb;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.content {
+  padding: 12px;
+}

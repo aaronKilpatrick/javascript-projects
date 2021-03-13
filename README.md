@@ -132,3 +132,12 @@ I went with a *slice()* coupled with a *for loop* to match the datasets and inpu
 * Template Literals
 
 This project was pretty stock standard. I completed it within ten minutes but I just wasn't happy using a global variable as a counter. So I came back the next day after doing a little research and adjusted the counter to be a Self Invoked Function Expression so I can not muddle the global scope.
+
+## Project 012 - Mobile Menu 
+**Javascript Used:**
+* Control Structures
+* DOM Manipulation
+* Event Listeners
+* IIFE (Counter)
+
+Just a quick mobile menu to get me on the way. This did not take very along at all. I have created a couple handfuls of mobile menus, but usely with JQuery so it was nice to try it out with Vanilla Javascript.
