@@ -121,3 +121,14 @@ I was going to use *getElementById()* as I know that it is faster than *querySel
 
 I was pretty happy with this one. I did some reading on variable scope and I now think I understand scope and why you use IIFEs to not contaminate the global scope.
 I went with a *slice()* coupled with a *for loop* to match the datasets and input for the search bar. I was pretty happy with my approach. I saw that the project solution was to use *includes* with a *foreach loop* which is a more simplistic approach but I think they take about the same time to code. Maybe a little quicker performance wise not having to slice every dataset at every iteration, but for such a small project it is fine. More than one way to skin a cat.
+
+## Project 011 - Modal 
+**Javascript Used:**
+* Arrays
+* Control Structures
+* DOM Manipulation
+* Event Listeners
+* IIFE (Counter)
+* Template Literals
+
+This project was pretty stock standard. I completed it within ten minutes but I just wasn't happy using a global variable as a counter. So I came back the next day after doing a little research and adjusted the counter to be a Self Invoked Function Expression so I can not muddle the global scope.
