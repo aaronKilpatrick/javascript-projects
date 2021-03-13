@@ -155,3 +155,14 @@ Just a quick mobile menu to get me on the way. This did not take very along at a
 * Template Literals
 
 This project I more or less copied step by step off [Freshman Tech](https://freshman.tech/calculator/). I used this project to practive my *CSS Grid* knowledge as well. I am glad I did though. Even though this isn't my own work, I picked up a lot of new things along the way. Like how *objects* are used in the real world, *destructuring assignments*, and *event delegation* which I know I will use in future projects.
+
+## Project 014 - BMI Calculator 
+**Javascript Used:**
+* Control Structures
+* DOM Manipulation
+* Event Listeners
+* isNan()
+* Math Object
+* String()
+
+This was a very easy project. Event listeners are becoming second nature to me. With this project my focus was making sure data types were used correctly, converting them when necessary. I also made sure to handle errors using return statements at the start of my function.
