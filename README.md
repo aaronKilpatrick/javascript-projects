@@ -166,3 +166,14 @@ This project I more or less copied step by step off [Freshman Tech](https://fres
 * String()
 
 This was a very easy project. Event listeners are becoming second nature to me. With this project my focus was making sure data types were used correctly, converting them when necessary. I also made sure to handle errors using return statements at the start of my function.
+
+## **S-** Project 014 - Weight Converter 
+**Javascript Used:**
+* Control Structures
+* DOM Manipulation
+* Event Listeners
+* isNan()
+* Math Object
+* String()
+
+Just a quick KG to LB converter. I did the whole project myself because it was just too simple. Nothing really new learnt, just solidifying my basic javascript knowledge. 
