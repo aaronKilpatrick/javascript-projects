@@ -187,3 +187,16 @@ Just a quick KG to LB converter. I did the whole project myself because it was j
 
 Really happy with this project. Even though it was super simpler I really was able to think outside the simple practices I have been taught. When I first started these 100 projects, I would of created a *forEach* loop for all the buttons to add *switch* or *if* statements to them. 
 Instead I wrapped the buttons in a *div* and used *Event Delegation*. I figured out each button would use the exact same *DOM* call but with a different button so I just made a function to handle that one line of code. Simple and readable.
+
+## Project 017 - Desktop Calculator 
+**Javascript Used:**
+* Control Structures
+* Destructuring Assignment
+* DOM Manipulation
+* Event Delegation
+* Event Listeners
+* Objects
+* Switch Statements
+
+This took some time. Even though I just did the previous calculator project, I was overcomplicating some of the functions. I cut it back and it actually turned out very similar with the previous project. Next time I might wait a few days before I tackle a project of a similar nature so I can really stress test myself.
+*Excuse the inline styling, it is a project template*
