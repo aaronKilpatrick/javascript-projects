@@ -141,3 +141,17 @@ This project was pretty stock standard. I completed it within ten minutes but I 
 * IIFE (Counter)
 
 Just a quick mobile menu to get me on the way. This did not take very along at all. I have created a couple handfuls of mobile menus, but usely with JQuery so it was nice to try it out with Vanilla Javascript.
+
+## **S-** Project 013 - Calculator 
+**Javascript Used:**
+* Control Structures
+* Destructuring Assignment
+* DOM Manipulation
+* Event Delegation
+* Event Listeners
+* Math Object
+* Objects
+* Switch Statements
+* Template Literals
+
+This project I more or less copied step by step off [Freshman Tech](https://freshman.tech/calculator/). I used this project to practive my *CSS Grid* knowledge as well. I am glad I did though. Even though this isn't my own work, I picked up a lot of new things along the way. Like how *objects* are used in the real world, *destructuring assignments*, and *event delegation* which I know I will use in future projects.
