@@ -167,7 +167,7 @@ This project I more or less copied step by step off [Freshman Tech](https://fres
 
 This was a very easy project. Event listeners are becoming second nature to me. With this project my focus was making sure data types were used correctly, converting them when necessary. I also made sure to handle errors using return statements at the start of my function.
 
-## **S-** Project 014 - Weight Converter 
+## **S-** Project 015 - Weight Converter 
 **Javascript Used:**
 * Control Structures
 * DOM Manipulation
@@ -177,3 +177,13 @@ This was a very easy project. Event listeners are becoming second nature to me. 
 * String()
 
 Just a quick KG to LB converter. I did the whole project myself because it was just too simple. Nothing really new learnt, just solidifying my basic javascript knowledge. 
+
+## **S-** Project 016 - Background Colour Switcher
+**Javascript Used:**
+* Control Structures
+* DOM Manipulation
+* Event Delegation
+* Event Listeners
+
+Really happy with this project. Even though it was super simpler I really was able to think outside the simple practices I have been taught. When I first started these 100 projects, I would of created a *forEach* loop for all the buttons to add *switch* or *if* statements to them. 
+Instead I wrapped the buttons in a *div* and used *Event Delegation*. I figured out each button would use the exact same *DOM* call but with a different button so I just made a function to handle that one line of code. Simple and readable.
