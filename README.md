@@ -9,6 +9,7 @@ I decided then and there that before I moved onto learning a framework I would t
 **A note on these projects:**
 Most projects come with the HTML and CSS already written which allows me to focus on the goal of Javascript retention and recall.
 Projects I **make from scratch** will have a **S-** before the project title
+Projects I create by following a **tutorial** will be marked with a **T-** before the project title
 
 ## Project 001 - Rock Paper Scissors
 
@@ -225,3 +226,11 @@ Very easy project. Not too much to say about it. I am thinking of doing this pro
 * Template Literals
 
 I tackled this with *Regular Expressions* I mentioned in the previous projects notes. I wanted to add another layer to the previous project as it was far too simple. I completed an online *Regex* course online [Regexone](https://regexone.com/) and I wanted to start incorporating them in my projects since I am more comfortable with them now.
+
+## **T-**Project 021 - Studio Ghibli Api
+**Javascript Used:**
+* DOM Manipulation
+* Fetch (API)
+* Template Literals
+
+I followed Tania Rascia's [tutorial](https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/) about how to connect to an API. She used XMLHttpRequest but I decided to follow along but use *Fetch* as it is far easier and as I am led to believe, the new standard.
