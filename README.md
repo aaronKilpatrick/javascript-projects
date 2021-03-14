@@ -203,7 +203,7 @@ This took some time. Even though I just did the previous calculator project, I w
 
 ## Project 018 - Digital Clock
 **Javascript Used:**
-* Date Objecy (toLocalString())
+* Date Object (toLocalString())
 * DOM Manipulation
 * Set Interval
 
@@ -216,3 +216,12 @@ Easy enough. Took 5 minutes. Last time I made a clock I used individual variable
 * Template Literals
 
 Very easy project. Not too much to say about it. I am thinking of doing this project again but putting my regex to the test and count how many characters minus spaces there are.
+
+## Project 020 - Sentence Length No Spaces
+**Javascript Used:**
+* DOM Manipulation
+* Event Listener
+* Regular Expressions
+* Template Literals
+
+I tackled this with *Regular Expressions* I mentioned in the previous projects notes. I wanted to add another layer to the previous project as it was far too simple. I completed an online *Regex* course online [Regexone](https://regexone.com/) and I wanted to start incorporating them in my projects since I am more comfortable with them now.
