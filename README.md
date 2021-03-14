@@ -200,3 +200,11 @@ Instead I wrapped the buttons in a *div* and used *Event Delegation*. I figured 
 
 This took some time. Even though I just did the previous calculator project, I was overcomplicating some of the functions. I cut it back and it actually turned out very similar with the previous project. Next time I might wait a few days before I tackle a project of a similar nature so I can really stress test myself.
 *Excuse the inline styling, it is a project template*
+
+## Project 018 - Digital Clock
+**Javascript Used:**
+* Date Objecy (toLocalString())
+* DOM Manipulation
+* Set Interval
+
+Easy enough. Took 5 minutes. Last time I made a clock I used individual variables for each unit of the clock. I thought that there must be a better way. Documentation pointed me to the right direction for using *toLocalString()*.
