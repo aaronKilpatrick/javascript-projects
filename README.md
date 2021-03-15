@@ -234,3 +234,11 @@ I tackled this with *Regular Expressions* I mentioned in the previous projects n
 * Template Literals
 
 I followed Tania Rascia's [tutorial](https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/) about how to connect to an API. She used XMLHttpRequest but I decided to follow along but use *Fetch* as it is far easier and as I am led to believe, the new standard.
+
+## Project 022 - Random Joke Api Project
+**Javascript Used:**
+* DOM Manipulation
+* Event Listeners
+* Fetch (API)
+
+A very simple project. This did not take me long at all. I did have to look up the *Fetch()* procedure again but I think I have it down now.
