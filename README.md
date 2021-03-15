@@ -242,3 +242,13 @@ I followed Tania Rascia's [tutorial](https://www.taniarascia.com/how-to-connect-
 * Fetch (API)
 
 A very simple project. This did not take me long at all. I did have to look up the *Fetch()* procedure again but I think I have it down now.
+
+## Project 023 - Random User Api 
+**Javascript Used:**
+* Callbacks
+* Destructuring
+* DOM Manipulation
+* Event Listeners
+* Fetch (API)
+
+This is my first real attempt at using *callbacks* for *asynchronous* operations. It took a little time to get my head around it but I think I get the general premise.
