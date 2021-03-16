@@ -252,3 +252,13 @@ A very simple project. This did not take me long at all. I did have to look up t
 * Fetch (API)
 
 This is my first real attempt at using *callbacks* for *asynchronous* operations. It took a little time to get my head around it but I think I get the general premise.
+
+## Project 024 - MDN stopwatch exercise
+**Javascript Used:**
+* DOM Manipulation
+* Event Listeners
+* Intervals
+* Math Object
+* Template Literals
+
+I came across *setInterval* and *setTimeout* when I created a clock for project 008. I am going through MDNs Asynchronous tutorials to help me with a future project I have planned.
