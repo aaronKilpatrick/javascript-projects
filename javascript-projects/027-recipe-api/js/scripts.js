@@ -37,7 +37,9 @@ function removeRecipeMenu() {
 
 // Creates the recipe card for the user to see.
 function createRecipeCard(selectedRecipe) {
-    let ingredients = "";
+    let ingredientList = "";
+    let methodList = "";
+
     removeRecipeMenu();
 
     // Recipe Card Container
@@ -53,19 +55,48 @@ function createRecipeCard(selectedRecipe) {
     const recipeData = document.createElement('div');
     recipeData.setAttribute('class', 'recipe-data');
 
+
+
     // Ingredients List
-    const recipeIngrediets = document.createElement('ul');
-    recipeIngrediets.setAttribute('class', 'recipe-ing');
+    const ingredientsHeading = document.createElement('h2');
+    ingredientsHeading.innerHTML = "Ingredients";
+
+    const recipeIngredients = document.createElement('ul');
+    recipeIngredients.setAttribute('class', 'recipe-ing');
+    // Loop through ingredients and add them to the ingredients list variable
+    selectedRecipe.ingredients.forEach((ingredient) => {
+        ingredientList += `<li>${ingredient}</li>`;
+    });
+    recipeIngredients.innerHTML = ingredientList;
+
 
     // Ordered List for method
-    const recipeMethod = document.createElement('div');
-    recipeMethod.setAttribute('class', 'recipe-method');
-    //selectedRecipe.ingre
+    const methodHeading = document.createElement('h2');
+    methodHeading.innerHTML = "Method";
 
+    const recipeMethod = document.createElement('ol');
+    recipeMethod.setAttribute('class', 'recipe-method');
+
+    selectedRecipe.method.forEach((meth) => {
+        methodList += `<li>${meth}</li>`
+    });
+    recipeMethod.innerHTML = methodList;
+
+    
 
     container.appendChild(recipeCard);
     recipeCard.appendChild(recipeName);
+
+    recipeCard.appendChild(ingredientsHeading);
+    recipeCard.appendChild(recipeIngredients);
+
+    recipeCard.appendChild(methodHeading);
+    recipeCard.appendChild(recipeMethod);
+
+
 }
+
+
 
 
 

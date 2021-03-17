@@ -1,0 +1,35 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('img/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    margin: inherit;
+}
+
+h1, h2 {
+    font-weight: 500;
+}
+
+nav {
+    background-color: lawngreen;
+    height: 50px;
+    width: 100%;
+}
+
+.container {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 15px 65px;
+    width: 60%;
+    min-height: 100%;
+}
+
+ul {
+    margin: inherit;
+}
