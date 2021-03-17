@@ -1,0 +1,69 @@
+[
+    {
+        "ID": "0",
+        "recipe_name": "Chickpea and lentil curry",
+        "prep_time": 15,
+        "cook_time": 30,
+        "serves": 4,
+        "ingredients": [
+            "1 onion finely chopped",
+            "2 garlic cloves crushed large",
+            "1 tbs oil",
+            "1 tsp chilli powder *to taste",
+            "1/2 tsp salt",
+            "1 pinch black pepper *to taste",
+            "1 tsp ground turmeric",
+            "1 tsp hot paprika",
+            "1 tbs ground coriander",
+            "1 tbs ground cumin",
+            "880 g canned chickpeas drained rinsed",
+            "880 g canned chopped tomatoes",
+            "1/4 cup red lentils optional",
+            "1 tsp garam masala",
+            "1 tbs fresh coriander *to decorate"
+        ],
+        "method": [
+            "Heat oil in a medium pan.",
+            "Add onion and garlic, and saute until onion is transparent, stirring constantly.",
+            "Add chilli powder, salt, turmeric, paprika, cumin and coriander, and cook for 2-3 minutes.",
+            "Add chickpeas and undrained tomatoes; and lentils if using, stir until combined. Simmer covered over low heat for 20 minutes, stirring occasionally.",
+            "Add garam masala.",
+            "Simmer covered for 10 more minutes.",
+            "Garnish with chopped fresh coriander leaves."
+        ],
+        "notes": [
+            "I love this curry wrapped up in pita bread, which has been heated over a gas flame for a few minutes."
+        ]
+    },
+    {
+        "ID": "1",
+        "recipe_name": "Laura's vegetarian chilli",
+        "prep_time": 10,
+        "cook_time": 30,
+        "serves": 4,
+        "ingredients": [
+            "1 tbs oil",
+            "1 brown onion finely chopped",
+            "2 garlic cloves crushed",
+            "1 tbs ground cumin",
+            "1 tbs ground coriander",
+            "2 tsp cayenne pepper optional",
+            "1/2 tsp ground cinnamon",
+            "2 jalapeno chillis finely chopped",
+            "420 g brown canned lentils drained rinsed",
+            "420 g red canned kidney beans drained rinsed",
+            "425 g canned diced tomato",
+            "3 tbs tomato paste"
+        ],
+        "method": [
+            "Heat the oil in a pan and cook the onion, garlic and chilli until softened.",
+            "Add the spices and cook for a further minute or two.",
+            "Add the beans, lentils, tomatoes and tomato paste.",
+            "Simmer for 15-20 minutes or until the sauce thickens. Season with salt and pepper.",
+            "Serve with rice or tortillas as desired."
+        ],
+        "notes": [
+            "For kids or anyone else who doesn't like heat, it's a good idea to omit the chillies and reduce the amount of cayenne pepper."
+        ]
+    }
+]
