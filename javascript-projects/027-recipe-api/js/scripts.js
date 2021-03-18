@@ -1,20 +1,27 @@
 // Recipe container
-const container = document.querySelector('.container');
-
-/* Menu Variables */
-// Recipe menu parent element
-const menuList = document.createElement('ul');
-// Recipe Menu Contents
+const container = document.querySelector('.container-content');
+const menuList = document.querySelector('.menu');
+const mobileMenu = document.querySelector('.menu-icon');
 let recipeMenu = "";
+let cardCreated = false;
 
-/* Recipe Variables */
+// Counter for mobile menu
+let menuCounter = (function(){
+    let i = 0;
+    return function() { i++; return i };
+})();
 
+// Mobile menu functionality
+mobileMenu.addEventListener('click', () => {
+    if (menuCounter() % 2 === 1) 
+        menuList.style.display = 'flex';
+    else 
+        menuList.style.display = 'none';
+    
+});
 
 // Dynamically creates recipe menu and appends to the container
 function createRecipeMenu(allRecipes) {
-    
-    menuList.setAttribute('class', 'menu')
-    container.appendChild(menuList);
 
     // Makes sure recipe list hasn't been created yet. Saves time and we won't be
     // adding any new recipes will this is running
@@ -30,8 +37,17 @@ function createRecipeMenu(allRecipes) {
 
 // removes menu from container. I might take this out and use a collapsible menu instead. 
 // I will use this first for dubbing and adjust later
-function removeRecipeMenu() {
-    container.removeChild(menuList);
+function removeRecipeCard() {
+
+    methodContainer.removeChild(methodHeading);
+    methodContainer.removeChild(recipeMethod);
+    recipeCard.removeChild(methodContainer);
+
+    recipeCard.removeChild(recipeIngredients);
+    recipeCard.removeChild(ingredientsHeading);
+
+    recipeCard.removeChild(recipeName);
+    container.removeChild(recipeCard);
 }
 
 
@@ -39,8 +55,8 @@ function removeRecipeMenu() {
 function createRecipeCard(selectedRecipe) {
     let ingredientList = "";
     let methodList = "";
-
-    removeRecipeMenu();
+    
+    
 
     // Recipe Card Container
     const recipeCard = document.createElement('article');
@@ -71,6 +87,9 @@ function createRecipeCard(selectedRecipe) {
 
 
     // Ordered List for method
+    const methodContainer = document.createElement('section');
+    methodContainer.setAttribute('class', 'method-container');
+
     const methodHeading = document.createElement('h2');
     methodHeading.innerHTML = "Method";
 
@@ -82,6 +101,17 @@ function createRecipeCard(selectedRecipe) {
     });
     recipeMethod.innerHTML = methodList;
 
+    if (cardCreated === true) {
+        // methodContainer.removeChild(methodHeading);
+        // methodContainer.removeChild(recipeMethod);
+        recipeCard.removeChild(methodContainer);
+
+        recipeCard.removeChild(recipeIngredients);
+        recipeCard.removeChild(ingredientsHeading);
+
+        recipeCard.removeChild(recipeName);
+        container.removeChild(recipeCard);
+    }
     
 
     container.appendChild(recipeCard);
@@ -90,14 +120,11 @@ function createRecipeCard(selectedRecipe) {
     recipeCard.appendChild(ingredientsHeading);
     recipeCard.appendChild(recipeIngredients);
 
-    recipeCard.appendChild(methodHeading);
-    recipeCard.appendChild(recipeMethod);
-
+    recipeCard.appendChild(methodContainer);
+    methodContainer.appendChild(methodHeading);
+    methodContainer.appendChild(recipeMethod);
 
 }
-
-
-
 
 
 fetch('json/recipes.json')
@@ -112,8 +139,10 @@ fetch('json/recipes.json')
         // Listen out for menu click. See note #1 below for how menu functionality works
         let recipeIndex = menuList.addEventListener("click", (event) => {
             menuIndex = event.target.dataset.index;
-            
+
+
             createRecipeCard(recipes[menuIndex]);
+            cardCreated = true;
         });
 
     }).then((recipes) => {
