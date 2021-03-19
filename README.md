@@ -262,3 +262,12 @@ This is my first real attempt at using *callbacks* for *asynchronous* operations
 * Template Literals
 
 I came across *setInterval* and *setTimeout* when I created a clock for project 008. I am going through MDNs Asynchronous tutorials to help me with a future project I have planned.
+
+## Project 028 - Quote of the day
+**Javascript Used:**
+* DOM Manipulation
+* Event Listeners
+* Math Object
+* Template Literals
+
+Just a really quick simple one. I am still working on 25 - 27. They are more complex in nature and I am developing them from scratch. This project was to make myself feel somewhat accomplished before I go watch round one of the 2021 AFL season with some mates.
