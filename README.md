@@ -279,3 +279,12 @@ Just a really quick simple one. I am still working on 25 - 27. They are more com
 * Objects
 
 Another quick one. Not too much to say. Chose to use an object array to keep things neat.
+
+## Project 030 - Percentage Tip Calculator
+**Javascript Used:**
+* Control Structures
+* DOM Manipulation
+* Event Listeners
+* Template Literals
+
+This project only took me about 5 minutes to code. I forgot to convert the input values to floats and my output was the two values concatenated. Very easy fix but I would like to be more mindful of this when I am parsing data from the DOM.
