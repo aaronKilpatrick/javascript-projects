@@ -271,3 +271,11 @@ I came across *setInterval* and *setTimeout* when I created a clock for project 
 * Template Literals
 
 Just a really quick simple one. I am still working on 25 - 27. They are more complex in nature and I am developing them from scratch. This project was to make myself feel somewhat accomplished before I go watch round one of the 2021 AFL season with some mates.
+
+## Project 029 - Day of the week 
+**Javascript Used:**
+* Date()
+* DOM Manipulation
+* Objects
+
+Another quick one. Not too much to say. Chose to use an object array to keep things neat.
